@@ -1,0 +1,14 @@
+
+
+#sprite {
+	background: url('./imgs/form-elements-sprite.png') no-repeat;
+	width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#home {
+    width: 100px;
+    height: 100px;
+    background: url('./imgs/form-elements-sprite.png') 100 100;
+}
