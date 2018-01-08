@@ -8,30 +8,27 @@
     <title> THE FORM </title>
 </head>
 <body>
-    <div class = "form box">
-        <form>
-            Your First Name:<br>
-            <input type="text" name="firstname" value="First" required>>
-            <br>
-            Your Last name:<br>
-            <input type="text" name="lastname" value="Last Name" required>>
-            <br><br>
-            <input type="text" name="phone" value="numbe">
+    <fieldset>
+        <legend> What is your Animal:?</legend>
+  <form action="submit">
+       Animal's Name <br> <input type="text"> <br>
 
-            <select name="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
-                  </select>
+       <select name="cars">
+            <option value="volvo">Cat</option>
+            <option value="saab">Dog</option>
+            <option value="fiat">Rabbit</option>
+            <option value="audi">Hamster </option>
+          </select> 
+
+       <br><input type="radio" name="gender" value="male" checked> Male<br>
+       <input type="radio" name="gender" value="female"> Female<br>
+<input type="submit">
+
+<div id = "sprite" src='./form-elements-sprite.png'> <p>hello</p><div>
+<img src="./form-elements-sprite.png" id="home" alt="yes">
 
 
-                    <input type="radio" name="gender" value="male" checked> Male<br>
-                    <input type="radio" name="gender" value="female"> Female<br>
-                    <input type="radio" name="gender" value="other"> Other <br>
-
-                    <input type="submit" value="Submit">
-        </form>
-        </div>
+  </form>
+  </fieldset>
 </body>
 </html>
